@@ -8,26 +8,31 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+<!-- Use Lorem ipsum to generate text for testing -->
 <div class="header">
     <table class="desktop_header_table">
         <tr>
-            <td valign="middle" style="width:380px"> 
-                <nav class="header_menu_left">
-                    <a href="http://sxie12.github.io/home">Home</a>
-                    <a href="http://sxie12.github.io/about-me">About Me</a>
-                    <a href="http://sxie12.github.io/projects">Projects</a>
-                    <!-- <a href="#about-me">ABOUT ME</a> -->
-                </nav>
+            <td valign="middle" style="width:352px"> 
+                <ul class="header_menu_left">
+                    <li><a href="http://sxie12.github.io/home">Home</a></li>
+                    <li><a href="http://sxie12.github.io/about-me">About Me</a></li>
+                    <li><a href="http://sxie12.github.io/projects">Projects</a></li>
+                </ul>
             </td>
             <td>
                 <h1> LOGO </h1>
             </td>
-            <td valign="middle" style="width:380px">
-                <nav class="header_menu_right">
-                    <a href="http://sxie12.github.io/contact">Contact</a>
-                    <a style="color:#000080" href="http://sxie12.github.io/old-drafts">Old Drafts</a>
-                    <a href="http://sxie12.github.io/credits">Credits</a>
-                </nav>
+            <td valign="middle" style="width:352px">
+                <ul class="header_menu_right">
+                    <li><a href="http://sxie12.github.io/contact">Contact</a></li>
+                    <li class="drop_down"><a style="color:#000080" href="http://sxie12.github.io/old-drafts">Old Drafts</a>
+                    <ul class="drop_down_contents">
+                        <li><a href="#websites">Websites</a></li>
+                        <li><a href="#android">Android</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="http://sxie12.github.io/credits">Credits</a></li>
+                </ul>
             </td>
         </tr>
     </table>
@@ -43,10 +48,18 @@
     <div class="content_body">
         <h1> OLD DRAFTS </h1>
         <div class="content_body_text">
-            <p> Here is a list of old drafts and random projects that I worked on. </p>
-            <ul>
-                <li><a href="http://sxie12.github.io/test1-project">My First Github Website</a></li>
-            </ul>
+            <span class="anchor" id="websites"></span>
+            <div class="websites_div">
+                <p> 
+                Here is a list of old websites I worked on. 
+                </p>
+                <ul>
+                    <li><a href="http://sxie12.github.io/test1-project">My First Github Website</a></li>
+                </ul>
+            </div>
+            <span class="anchor" id="android"></span>
+            <div class="android_div">
+            </div>
         </div>
     </div>
 </div>
